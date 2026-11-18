@@ -98,6 +98,11 @@ details[open] summary{border-bottom:1px solid var(--line);background:var(--tint)
   .steps .t{min-width:76px;font-size:12.5px}
   body{font-size:16.5px}
 }
+
+.sch{margin:10px 12px 12px;border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:12px;background:var(--paper);overflow:hidden}
+.sch>.sh{margin:0;padding:10px 15px 2px;font-size:15px;font-weight:800;color:var(--navy);letter-spacing:.02em}
+.sch .steps{padding:2px 15px 2px}
+.sch .hw{padding:11px 15px}
 </style>
 </head>
 <body>
@@ -129,14 +134,33 @@ details[open] summary{border-bottom:1px solid var(--line);background:var(--tint)
       <span class="dow">수요일</span><span class="date">11/18</span>
       <span class="meta"><span class="chip">4:10 · 5:30 시작</span><span class="chip rm">2강의실</span></span>
     </div>
-    <ul class="steps">
-      <li><span class="t">4:10</span><span class="b">윤슬중 8과 · 미강중 4과 — 영작 TEST → 워크북1 TEST</span></li>
-      <li><span class="t">5:30</span><span class="b">신평중 — 5과 영작 TEST → 워크북1 TEST / 은가람중 — 6과 진도 · 6과 워크북2는 오늘 끝내고 귀가</span></li>
-    </ul>
-    <p class="star"><b>★</b><span>숙제 배부 — 윤슬중 · 미강중 6과 그래머 객관식 · 6과 예상문제(pre step · 1회 · 2회) / 신평중 4과 그래머 객관식 · 4과 예상문제(pre step · 1회 · 2회)</span></p>
-    <div class="hw">
-      <p class="lb">다음까지</p>
-      <p>11/20(금)까지 · 윤슬중 · 미강중 6과 그래머 객관식 · 6과 예상문제(pre step · 1회 · 2회) / 신평중 4과 그래머 객관식 · 4과 예상문제(pre step · 1회 · 2회) 풀어오기</p>
+    <div class="sch">
+      <p class="sh">윤슬중 · 미강중</p>
+      <ul class="steps">
+        <li><span class="t">4:10</span><span class="b">영작 TEST → 워크북1 TEST (윤슬중 8과 · 미강중 4과)</span></li>
+      </ul>
+      <p class="star"><b>★</b><span>숙제 배부 — 윤슬중 · 미강중 6과 그래머 객관식 · 6과 예상문제(pre step · 1회 · 2회)</span></p>
+      <div class="hw">
+        <p class="lb">다음까지</p>
+        <p>11/20(금)까지 · 윤슬중 · 미강중 6과 그래머 객관식 · 6과 예상문제(pre step · 1회 · 2회)</p>
+      </div>
+    </div>
+    <div class="sch">
+      <p class="sh">신평중</p>
+      <ul class="steps">
+        <li><span class="t">5:30</span><span class="b">5과 영작 TEST → 워크북1 TEST</span></li>
+      </ul>
+      <p class="star"><b>★</b><span>숙제 배부 — 신평중 4과 그래머 객관식 · 4과 예상문제(pre step · 1회 · 2회)</span></p>
+      <div class="hw">
+        <p class="lb">다음까지</p>
+        <p>11/20(금)까지 · 신평중 4과 그래머 객관식 · 4과 예상문제(pre step · 1회 · 2회) 풀어오기</p>
+      </div>
+    </div>
+    <div class="sch">
+      <p class="sh">은가람중</p>
+      <ul class="steps">
+        <li><span class="t">5:30</span><span class="b">6과 진도 · 6과 워크북2는 오늘 끝내고 귀가</span></li>
+      </ul>
     </div>
   </section>
 
@@ -145,14 +169,28 @@ details[open] summary{border-bottom:1px solid var(--line);background:var(--tint)
       <span class="dow">금요일</span><span class="date">11/20</span>
       <span class="meta"><span class="chip">4:10 · 5:30 시작</span><span class="chip rm">3강의실</span></span>
     </div>
-    <ul class="steps">
-      <li><span class="t">4:10</span><span class="b">윤슬중 · 미강중 — 6과 그래머 · 예상문제 문제 풀이 · 질답</span></li>
-      <li><span class="t">5:30</span><span class="b">신평중 — 4과 그래머 · 예상문제 문제 풀이 · 질답 / 은가람중 — 6과 영작 TEST → 워크북1 TEST</span></li>
-    </ul>
-    <p class="star"><b>★</b><span>은가람중 숙제 배부 — 5 · 6과 그래머 객관식 · 5 · 6과 예상문제(pre step · 1회 · 2회)</span></p>
-    <div class="hw">
-      <p class="lb">다음까지</p>
-      <p>11/23(월)까지 · 은가람중 5 · 6과 그래머 객관식 · 5 · 6과 예상문제(pre step · 1회 · 2회) 풀어오기</p>
+    <div class="sch">
+      <p class="sh">윤슬중 · 미강중</p>
+      <ul class="steps">
+        <li><span class="t">4:10</span><span class="b">6과 그래머 · 예상문제 문제 풀이 · 질답</span></li>
+      </ul>
+    </div>
+    <div class="sch">
+      <p class="sh">신평중</p>
+      <ul class="steps">
+        <li><span class="t">5:30</span><span class="b">4과 그래머 · 예상문제 문제 풀이 · 질답</span></li>
+      </ul>
+    </div>
+    <div class="sch">
+      <p class="sh">은가람중</p>
+      <ul class="steps">
+        <li><span class="t">5:30</span><span class="b">6과 영작 TEST → 워크북1 TEST</span></li>
+      </ul>
+      <p class="star"><b>★</b><span>숙제 배부 — 5 · 6과 그래머 객관식 · 5 · 6과 예상문제(pre step · 1회 · 2회)</span></p>
+      <div class="hw">
+        <p class="lb">다음까지</p>
+        <p>11/23(월)까지 · 은가람중 5 · 6과 그래머 객관식 · 5 · 6과 예상문제(pre step · 1회 · 2회) 풀어오기</p>
+      </div>
     </div>
   </section>
 
@@ -161,14 +199,30 @@ details[open] summary{border-bottom:1px solid var(--line);background:var(--tint)
       <span class="dow">월요일</span><span class="date">11/23</span>
       <span class="meta"><span class="chip">4:10 · 5:30 시작</span><span class="chip rm">2강의실</span></span>
     </div>
-    <ul class="steps">
-      <li><span class="t">4:10</span><span class="b">윤슬중 7과 · 미강중 4과 — 그래머 객관식 수업 시간에 풀기</span></li>
-      <li><span class="t">5:30</span><span class="b">신평중 — 5과 그래머 객관식 수업 시간에 풀기 / 은가람중 — 5 · 6과 그래머 객관식 · 예상문제 최대한 끝내고 귀가 (다 못 끝내면 다음으로 넘어갑니다)</span></li>
-    </ul>
-    <p class="star"><b>★</b><span>숙제 배부 — 윤슬중 7과 예상문제(pre step · 1회 · 2회) / 미강중 4과 예상문제(pre step · 1회 · 2회) / 신평중 5과 예상문제(pre step · 1회 · 2회)</span></p>
-    <div class="hw">
-      <p class="lb">다음까지</p>
-      <p>11/25(수)까지 · 윤슬중 7과 · 미강중 4과 · 신평중 5과 예상문제(pre step · 1회 · 2회) 풀어오기</p>
+    <div class="sch">
+      <p class="sh">윤슬중 · 미강중</p>
+      <ul class="steps">
+        <li><span class="t">4:10</span><span class="b">그래머 객관식 수업 시간에 풀기 (윤슬중 7과 · 미강중 4과)</span></li>
+      </ul>
+      <p class="star"><b>★</b><span>숙제 배부 — 윤슬중 7과 예상문제(pre step · 1회 · 2회)</span></p>
+      <p class="star"><b>★</b><span>숙제 배부 — 미강중 4과 예상문제(pre step · 1회 · 2회)</span></p>
+      <div class="hw">
+        <p class="lb">다음까지</p>
+        <p>11/25(수)까지 · 윤슬중 7과 · 미강중 4과 · 신평중 5과 예상문제(pre step · 1회 · 2회) 풀어오기</p>
+      </div>
+    </div>
+    <div class="sch">
+      <p class="sh">신평중</p>
+      <ul class="steps">
+        <li><span class="t">5:30</span><span class="b">5과 그래머 객관식 수업 시간에 풀기</span></li>
+      </ul>
+      <p class="star"><b>★</b><span>숙제 배부 — 신평중 5과 예상문제(pre step · 1회 · 2회)</span></p>
+    </div>
+    <div class="sch">
+      <p class="sh">은가람중</p>
+      <ul class="steps">
+        <li><span class="t">5:30</span><span class="b">5 · 6과 그래머 객관식 · 예상문제 최대한 끝내고 귀가 (다 못 끝내면 다음으로 넘어갑니다)</span></li>
+      </ul>
     </div>
   </section>
 

@@ -98,6 +98,11 @@ details[open] summary{border-bottom:1px solid var(--line);background:var(--tint)
   .steps .t{min-width:76px;font-size:12.5px}
   body{font-size:16.5px}
 }
+
+.sch{margin:10px 12px 12px;border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:12px;background:var(--paper);overflow:hidden}
+.sch>.sh{margin:0;padding:10px 15px 2px;font-size:15px;font-weight:800;color:var(--navy);letter-spacing:.02em}
+.sch .steps{padding:2px 15px 2px}
+.sch .hw{padding:11px 15px}
 </style>
 </head>
 <body>
@@ -129,14 +134,33 @@ details[open] summary{border-bottom:1px solid var(--line);background:var(--tint)
       <span class="dow">목요일</span><span class="date">11/19</span>
       <span class="meta"><span class="chip">6:00~10:00</span><span class="chip rm">스터디홀</span></span>
     </div>
-    <ul class="steps">
-      <li><span class="t">6:00</span><span class="b">은가람중 — 워크북1 틀린 문항만 재시 → 외부지문 동형모의고사 1~3회차 질답 → 4~6회차 수업 시간에 풀고 질답 후 귀가 (영작 TEST 대신 어순만 확인) / 하남중 — 교과서 뒤 추가지문 동형모의고사 1~3회차 과제 검사 · 질답 → 4~6회차 수업 시간에 풀고 질답</span></li>
-      <li><span class="t">8:00</span><span class="b">미사중 — 미니모고 고1 8회 실전 + 해설</span></li>
-    </ul>
-    <p class="star"><b>★</b><span>은가람중 · 하남중 — 교과서 동형모의고사 5 · 6회차 문제지 · 답지 배부 (직전보강 전까지 모두 풀어오기)</span></p>
-    <div class="hw">
-      <p class="lb">다음까지</p>
-      <p>직전보강 전까지 · 은가람중 · 하남중 교과서 동형모의고사 5 · 6회차 모두 풀어오기</p>
+    <div class="sch">
+      <p class="sh">은가람중</p>
+      <ul class="steps">
+        <li><span class="t">6:00</span><span class="b">워크북1 틀린 문항만 재시 → 외부지문 동형모의고사 1~3회차 질답 → 4~6회차 수업 시간에 풀고 질답 후 귀가 (영작 TEST 대신 어순만 확인)</span></li>
+      </ul>
+      <p class="star"><b>★</b><span>교과서 동형모의고사 5 · 6회차 문제지 · 답지 배부 (직전보강 전까지 모두 풀어오기)</span></p>
+      <div class="hw">
+        <p class="lb">다음까지</p>
+        <p>직전보강 전까지 · 교과서 동형모의고사 5 · 6회차 모두 풀어오기</p>
+      </div>
+    </div>
+    <div class="sch">
+      <p class="sh">하남중</p>
+      <ul class="steps">
+        <li><span class="t">6:00</span><span class="b">교과서 뒤 추가지문 동형모의고사 1~3회차 과제 검사 · 질답 → 4~6회차 수업 시간에 풀고 질답</span></li>
+      </ul>
+      <p class="star"><b>★</b><span>교과서 동형모의고사 5 · 6회차 문제지 · 답지 배부 (직전보강 전까지 모두 풀어오기)</span></p>
+      <div class="hw">
+        <p class="lb">다음까지</p>
+        <p>직전보강 전까지 · 교과서 동형모의고사 5 · 6회차 모두 풀어오기</p>
+      </div>
+    </div>
+    <div class="sch">
+      <p class="sh">미사중</p>
+      <ul class="steps">
+        <li><span class="t">8:00</span><span class="b">미니모고 고1 8회 실전 + 해설</span></li>
+      </ul>
     </div>
   </section>
 
@@ -145,11 +169,17 @@ details[open] summary{border-bottom:1px solid var(--line);background:var(--tint)
       <span class="dow">토요일</span><span class="date">11/21</span>
       <span class="meta"><span class="chip">4:00 정시 ~</span><span class="chip rm">3강의실</span></span>
     </div>
-    <ul class="steps">
-      <li><span class="t">4:00</span><span class="b">미강중 · 윤슬중 · 미사중 — 미니모고 고1 9회 실전 → 상세분석서 보고 채점 → 질답</span></li>
-    </ul>
-    <p class="star"><b>★</b><span>듣기 — 질답 뒤 이어서</span></p>
-    <p class="star"><b>★</b><span>은가람중 · 하남중은 오늘 수업 없이 교과서 동형모의고사 5 · 6회차 마무리</span></p>
+    <div class="sch">
+      <p class="sh">미강중 · 윤슬중 · 미사중</p>
+      <ul class="steps">
+        <li><span class="t">4:00</span><span class="b">미니모고 고1 9회 실전 → 상세분석서 보고 채점 → 질답</span></li>
+      </ul>
+      <p class="star"><b>★</b><span>듣기 — 질답 뒤 이어서</span></p>
+    </div>
+    <div class="sch">
+      <p class="sh">은가람중 · 하남중</p>
+      <p class="star"><b>★</b><span>오늘 수업 없이 교과서 동형모의고사 5 · 6회차 마무리</span></p>
+    </div>
     <div class="hw">
       <p class="lb">다음까지</p>
       <p>11/24(화)까지 · 미니모고 고1 9회 상세분석서 복습</p>
